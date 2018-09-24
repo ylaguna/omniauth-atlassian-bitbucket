@@ -1,8 +1,8 @@
-require "simplecov"
-SimpleCov.start
+require "coveralls"
+Coveralls.wear!
 
 require "bundler/setup"
-require "omniauth-atlassian-bitbucket"
+require "omnibucket"
 
 require "minitest/utils"
 require "minitest/autorun"
