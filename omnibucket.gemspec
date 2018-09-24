@@ -1,13 +1,13 @@
 require "./lib/omniauth-bitbucket/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-atlassian-bitbucket"
+  spec.name          = "omnibucket"
   spec.version       = Omniauth::Bitbucket::VERSION
-  spec.authors       = ["Nando Vieira"]
-  spec.email         = ["fnando.vieira@gmail.com"]
-  spec.summary       = "OmniAuth strategy for Bitbucket (https://bitbucket.org)."
+  spec.authors       = ["Yan Laguna"]
+  spec.email         = ["yan.laguna@gmail.com"]
+  spec.summary       = "A fork from Nando Vieira's omniauth-atlassian-bitbucket"
   spec.description   = spec.summary
-  spec.homepage      = "https://github.com/fnando/omniauth-atlassian-bitbucket"
+  spec.homepage      = "https://github.com/ylaguna/omniauth-atlassian-bitbucket"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
